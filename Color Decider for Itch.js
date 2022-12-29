@@ -1,3 +1,4 @@
+function generate() {
 var Count;
 
 function mathRandomInt(a, b) {
@@ -20,4 +21,5 @@ Count = 1;
 while (Count <= mathRandomInt(1, 100)) {
   window.alert(colourRandom());
   Count = Count + 1;
+}
 }
