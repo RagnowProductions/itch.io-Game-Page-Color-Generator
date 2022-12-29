@@ -1,2 +1,2 @@
-# itch.io-Game-Page-Color-Generator
+# itch.io Game Page Color Generator
 Generates Random Colors For Your New Itch.io Game Page
