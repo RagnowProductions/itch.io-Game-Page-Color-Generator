@@ -9,7 +9,6 @@ function generate() {
 
   Color = colourRandom();
 
-  window.alert(Color);
   const ucodeblock = document.getElementById("block");
   ucodeblock.style.color = Color;
   document.getElementById("hexadecimal-paragraph").innerHTML = Color;
