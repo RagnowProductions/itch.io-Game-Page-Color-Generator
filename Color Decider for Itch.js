@@ -19,7 +19,7 @@ function colourRandom() {
 
 
 Count = 1;
-Color = colourRandom()
+Color = colourRandom();
 while (Count <= mathRandomInt(1, 1)) {
   window.alert(color);
   document.getElementById("block").style.color = color;
