@@ -9,5 +9,7 @@ function colourRandom() {
 
 Color = colourRandom();
 
-window.alert(Color);}
+window.alert(Color);
+const ucodeblock = document.getElementById("block");
+ucodeblock.style.color = Color;
 }
