@@ -14,3 +14,6 @@ function generate() {
   document.getElementById("hexadecimal-paragraph").innerHTML = Color;
 
 }
+function sayhex() {
+  window.alert(Color);
+}
