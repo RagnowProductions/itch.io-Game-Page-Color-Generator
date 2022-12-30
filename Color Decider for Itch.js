@@ -1,5 +1,6 @@
 function generate() {
 var Count;
+var Color;
 
 function mathRandomInt(a, b) {
   if (a > b) {
@@ -18,8 +19,10 @@ function colourRandom() {
 
 
 Count = 1;
-while (Count <= mathRandomInt(1, 100)) {
-  window.alert(colourRandom());
+Color = colourRandom()
+while (Count <= mathRandomInt(1, 1)) {
+  window.alert(color);
+  document.getElementById("block").style.color = color;
   Count = Count + 1;
 }
 }
