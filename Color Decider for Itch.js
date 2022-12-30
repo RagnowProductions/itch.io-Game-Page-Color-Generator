@@ -1,5 +1,4 @@
 function generate() {
-var Count;
 var Color;
 
 function colourRandom() {
@@ -8,11 +7,7 @@ function colourRandom() {
 }
 
 
-Count = 1;
 Color = colourRandom();
-while (Count <= 1) {
-  window.alert(color);
-  document.getElementById("block").style.color = color;
-  Count = Count + 1;
-}
+
+window.alert(Color);}
 }
