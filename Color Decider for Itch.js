@@ -13,10 +13,4 @@ window.alert(Color);
 const ucodeblock = document.getElementById("block");
 ucodeblock.style.color = Color;
 
-const copyBobBtn = document.getElementById('.js-copy-bob-btn'),
-
-copyBobBtn.addEventListener('click', function(event) {
-  copyTextToClipboard(Color);
-});
-
 }
